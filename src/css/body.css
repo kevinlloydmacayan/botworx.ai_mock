@@ -1,0 +1,106 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-table {
+    padding: 30px 50px;
+}
+
+.table-header {
+    color: #9b9b9b;
+    border-bottom: 1px solid #e4e4e4;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    width: 100%;
+}
+
+.table-body{
+    width: 100%;
+}
+
+.table-row td {
+    border-bottom: 1px solid #e4e4e4;
+    // user-select: none;
+}
+
+.version-name {
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #263c47;
+}
+
+.status-toggle {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    // padding: 0 50px 0 0;
+}
+
+.toggle-button {
+    margin-right: 20px;
+}
+
+.toggle-label {
+    flex: 2;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #263c47;
+}
+
+.active-label {
+    color: #263c47;
+}
+
+.inactive-label {
+    color: #9b9b9b;
+}
+
+.action-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.icon-container {
+    padding: 0 20px;
+}
+
+.text-icon {
+    height: 30px;
+    margin-top: 5px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #9b9b9b;
+    cursor: pointer;
+}

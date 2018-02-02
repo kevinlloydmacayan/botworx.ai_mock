@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  opacity: 0.8;
+  // background-image: linear-gradient(to top, #f2fcfe, #1c92d2);
+  background-color: #1c92d2;
+  height: 130px;
+  padding: 20px;
+}
+
+.App-body {
+  display: flex;
+  flex: 5;
+}
+
+.Navbar-container {
+    flex: 1;
+}
+
+.Titlebar-container {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    justify-content: center;
+}
+
+.ActionButtons-container {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

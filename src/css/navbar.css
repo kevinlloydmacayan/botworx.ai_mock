@@ -1,0 +1,48 @@
+
+.logo-container {
+    flex: 2;
+}
+
+.logo {
+  color: white;
+  //width: 125px;
+  height: 30px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation-item {
+    padding: 0 10px 0 10px;
+    letter-spacing: -0.3px;
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navigation-item:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.item-selected {
+    color: #000;
+}
+
+.profile-icon {
+    flex: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-width: 5px;
+    border: 3px solid #000;
+    margin-left: 10px;
+    cursor: pointer;
+}

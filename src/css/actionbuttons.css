@@ -1,0 +1,25 @@
+.button-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.action-button {
+    border-radius: 5px;
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #13b6f2;
+    padding: 8px 20px;
+}
+
+.action-button:hover {
+    cursor: pointer;
+    background-color: #eff5ff;
+}

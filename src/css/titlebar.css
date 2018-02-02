@@ -1,0 +1,14 @@
+
+.title {
+  font-family: HelveticaNeue;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.94;
+  letter-spacing: -0.7px;
+  text-align: left;
+  // color: #263c47;
+  color: #000;
+  padding-left: 36.3px;
+}
